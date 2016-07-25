@@ -1,0 +1,11 @@
+*~
+*.db
+*.log
+*.gimmick
+test.txt
+*.iso
+*.torrent
+*.pyc
+*.egg*
+/docs/_build/*
+/build/*

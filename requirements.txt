@@ -1,0 +1,4 @@
+torrentool
+requests
+bitarray
+PyYAML
