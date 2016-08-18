@@ -7,3 +7,4 @@ clean:
 	
 docs:
 	$(MAKE) -C docs html
+	pandoc README.md --from markdown --to rst -s -o README.rst

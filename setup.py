@@ -5,9 +5,12 @@ def read(fname):
     return open(path.join(path.dirname(__file__), fname)).read()
 
 setup(
-    name='pythorrent',
-    version='0.1a',
-    description=read("README.md"),
+    name='PYTHorrent',
+    version='0.1',
+    license="AGPLv3",
+    description="A BitTorrent client written entirely in Python so "\
+        "that you can get to the depths of the protocol",
+    long_description=read("README.rdf"),
     author='Matt Copperwaite',
     author_email='mattcopp@gmail.com',
     url='https://github.com/yamatt/python-pthorrent',
