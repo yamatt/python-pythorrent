@@ -7,7 +7,6 @@ def read(fname):
 setup(
     name='PYTHorrent',
     version='0.1',
-    license="AGPLv3",
     description="A BitTorrent client written entirely in Python so "\
         "that you can get to the depths of the protocol",
     long_description=read("README.rdf"),
