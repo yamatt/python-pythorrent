@@ -75,4 +75,4 @@ Options?
 - https://github.com/miniupnp/miniupnp
 
 
-** Always download legal torrents **
+** **Always download legal torrents** **
