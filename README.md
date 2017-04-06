@@ -28,6 +28,7 @@ Depending on how you installed PYTHorrent you may need to go to the root of the 
 
 ## Overview
 Documentation for the BitTorrent protocol is poor but these sources have been immensely helpful:
+
 - http://jonas.nitro.dk/bittorrent/bittorrent-rfc.html
 - https://wiki.theory.org/BitTorrentSpecification
 - http://www.kristenwidman.com/blog/33/how-to-write-a-bittorrent-client-part-1/
@@ -60,8 +61,8 @@ Documentation for the BitTorrent protocol is poor but these sources have been im
 ### DHT
 Options?
 - https://github.com/drxzcl/lightdht/
-  - I like this one best
-  - Seems to lock out when finding peers
+    - I like this one best
+    - Seems to lock out when finding peers
 - https://github.com/gsko/mdht
 
 ### Encryption? PHE
@@ -69,9 +70,9 @@ Options?
 
 ### UPnP
 - https://code.google.com/archive/p/miranda-upnp/
-  - Entirely Python code
+    - Entirely Python code
 - http://www.gniibe.org/memo/system/dynamic-ip/upnp.html
-  - Has dependency on GNUPnP
+    - Has dependency on GNUPnP
 - https://github.com/miniupnp/miniupnp
 
 
