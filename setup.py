@@ -12,7 +12,7 @@ setup(
     long_description=read("README.rst"),
     author='Matt Copperwaite',
     author_email='mattcopp@gmail.com',
-    url='https://github.com/yamatt/python-pthorrent',
+    url='https://github.com/yamatt/python-pythorrent',
     packages=[
         'pythorrent',
     ],
