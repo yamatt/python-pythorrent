@@ -459,7 +459,7 @@ class Peer(object):
         # the pieces are compacted in sequence in to bits
         field = BitArray(
             map(
-                lambda (sha, piece): sha == piece.digest,
+                lambda sha, piece : sha == piece.digest,
                 self.torrent.pieces.items()
             )
         )
