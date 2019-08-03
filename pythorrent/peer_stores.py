@@ -15,7 +15,7 @@
 
 import socket
 import random
-from urlparse import urlparse
+from urllib.parse import urlparse
 from struct import unpack
 from datetime import datetime, timedelta
 
@@ -54,7 +54,7 @@ def store_from_url(url):
 class TrackerException(Exception):
     pass
     
-class Tracker(object)
+class Tracker(object):
     PEER = Peer
     TRACKER_INTERVAL = 1800 # seconds
     
@@ -303,7 +303,7 @@ class UDPTracker(Tracker):
         )
         self.send(request)
         
-	return parse_scrape_response(transaction_id, info_hash)
+        return parse_scrape_response(transaction_id, info_hash)
     
     def parse_scrape_response(self, sent_transaction_id, info_hash):
         buf = self.socket.recvfrom(2048)[0]
