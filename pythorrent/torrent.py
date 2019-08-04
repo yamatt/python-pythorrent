@@ -151,7 +151,7 @@ class Torrent(object):
         return cls(
             name=info['name'],
             announce_urls=map(
-                lambda (url,): url, metainfo['announce-list']
+                lambda url : url, metainfo['announce-list']
             ),
             # Note that info_hash is generated here because torrentool
             # returns the info_hash as hex encoded, which is really not
